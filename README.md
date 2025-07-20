@@ -13,7 +13,8 @@ cd aithai-vissarut
 
 ### STEP 2 Build Docker Container by docker-compose.yml file: 
 ```bash
-docker compose up -d
+docker-compose build --no-cache
+docker-compose up -d
 ```
 
 ### STEP 3 Test API: 
