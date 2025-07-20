@@ -8,4 +8,4 @@ logging.info("[API 2] Ready to serve requests")
 async def api2():
     logging.info("[API 2] Received request from API 1")
     logging.info("[API 2] Sending response to API 1")
-    return {"message": "สวัสดีค่ะ พวกเราทีมวัดไร่ขิง"}
+    return {"message": "Hi, We are Wat Rhai Khing Team"}
